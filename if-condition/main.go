@@ -9,4 +9,8 @@ func main() {
 	} else {
 		fmt.Println("You are welcome to this application")
 	}
+
+	if result := 10 + 2; result < 18 {
+		fmt.Println("Result is less than 18")
+	}
 }
