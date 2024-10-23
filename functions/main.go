@@ -12,18 +12,22 @@ func main() {
 	fmt.Println(s, d)
 }
 
+// simple function
 func greet() {
 	fmt.Println("Greeting...")
 }
 
+// function with parameter
 func logMessage(message string) {
 	fmt.Println("INFO:", message)
 }
 
+// function with return type
 func getSum(a, b int) int {
 	return a + b
 }
 
+// function with multiple return types with named return values
 func getResults(a, b int) (sum, sub int) {
 	sum = a + b
 	sub = a - b
