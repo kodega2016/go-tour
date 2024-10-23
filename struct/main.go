@@ -17,6 +17,13 @@ func main() {
 	}
 
 	fmt.Println(rakas)
+
+	shankar := User{}
+	shankar.Name = "Shankar Subedi"
+	shankar.Role = "React Developer"
+	shankar.Age = 28
+
+	fmt.Println(shankar)
 }
 
 type User struct {
