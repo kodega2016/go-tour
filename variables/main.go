@@ -19,4 +19,11 @@ func main() {
 	)
 
 	fmt.Println(company_name, company_address, company_size)
+
+	// zero values
+	var i int
+	var f float64
+	var s string
+	var b bool
+	fmt.Printf("%v %v %v %v\n", i, f, s, b)
 }
