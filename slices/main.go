@@ -17,4 +17,7 @@ func main() {
 	new_users := users[:2]
 	new_users[0] = "Kumari"
 	fmt.Println("users:", users)
+
+	fmt.Println("first two elements", users[:2])
+	fmt.Println("last two elements", users[2:])
 }
