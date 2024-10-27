@@ -20,6 +20,16 @@ func main() {
 	for key, value := range users {
 		fmt.Println(key, value)
 	}
+
+	user_prefs := map[string]string{
+		"kodega": "Google Cloud",
+		"rakas":  "Azure",
+	}
+	fmt.Println(user_prefs)
+
+	for k, v := range user_prefs {
+		fmt.Println(k, v)
+	}
 }
 
 type User struct {
