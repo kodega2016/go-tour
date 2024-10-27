@@ -13,6 +13,8 @@ func main() {
 
 	users = append(users, "Jack")
 	fmt.Println(users)
-
 	fmt.Println(users[:2])
+	new_users := users[:2]
+	new_users[0] = "Kumari"
+	fmt.Println("users:", users)
 }
